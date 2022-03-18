@@ -22,5 +22,5 @@ int main ()
 
 // showing id + grade
 for (r=0;r<45;r++){
-    printf ("%d.Student ID: %d           Student Grade:%d",(r+1),ar[r][0],ar[r][7]);    //list of Id and grade column;
+    printf ("%d.Student ID: %d           Student Grade:%d\n",(r+1),ar[r][0],ar[r][7]);    //list of Id and grade column;
 }
