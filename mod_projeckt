@@ -3,6 +3,7 @@ int main()
 {
     //1
     int i,r,c,row,col,choice;
+    r=0;
     float ara[45][8],gpa;
     for (row=0; row<45; row++)
     {
@@ -13,8 +14,6 @@ int main()
     }
     while(1)
     {
-        //2
-//     system("cls");
 //-------------------------HOME---------------------------
         printf("                    \xB2\xB2\xB2   \xB2\xB2\xB2  \xB2\xB2\xB2  \xB2   \xB2  \xB2    \xB2\xB2\xB2      \xB2\xB2\xB2\xB2  \xB2\xB2\xB2  \xB2   \xB2  \xB2\xB2\xB2  \xB2\xB2\xB2    \xB2   \xB2\xB2\xB2   \xB2\xB2   \xB2\xB2\xB2\n");
         printf("                    \xB2  \xB2  \xB2    \xB2    \xB2   \xB2  \xB2     \xB2       \xB2     \xB2    \xB2\xB2  \xB2  \xB2    \xB2  \xB2  \xB2 \xB2   \xB2   \xB2  \xB2  \xB2  \xB2\n");
@@ -38,7 +37,7 @@ int main()
 
         if (choice == 1)
         {
-            for(r=r ; r<45 ; r++)
+            for(  ; r<45 ; r++)
             {
                 for(c=0 ; c<7 ; c++)
                 {
