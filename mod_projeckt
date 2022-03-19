@@ -28,6 +28,7 @@ int main()
         printf("        ||   2 . SHOW SAVED RESULTS                  ||\n");
         printf("        ||   3 . SORT GRADEWISE                      ||\n");
         printf("        ||   4 . OVERALL RESULTS                     ||\n");
+        printf("        ||   5 . Exit Program                        ||\n");
         printf("        ||                                           ||\n");
         printf("        ===============================================\n");
         printf("\nEnter your choice : ");
@@ -291,12 +292,10 @@ int main()
 
 
             printf("            Enter any key to go back to main menu\n");
-            getch();
-            main();
-
-
+        }
+        else {
+            break;
         }                                                                                   //8
-
 //----------------------------------****---------------------------------------------
     }                                                                                     //2
     return 0;
