@@ -4,8 +4,10 @@ int main()
     //1
     int i,r,c,row,col,choice;
     float ara[45][8],gpa;
-    for (row=0;row<45;row++){
-        for (col = 0;col<8;col++){
+    for (row=0; row<45; row++)
+    {
+        for (col = 0; col<8; col++)
+        {
             ara[row][col] = 0;
         }
     }
@@ -227,27 +229,45 @@ int main()
             for(int row=0; row<=44; row++)
             {
                 if(ara[row][7]>=0.00 && ara[row][7]<2.00)
+                {
                     F++;
+                }
                 if(ara[row][7]>=2.00 && ara[row][7]<2.25)
+                {
                     D++;
+                }
                 if(ara[row][7]>=2.25 && ara[row][7]<2.50)
+                {
                     C++;
+                }
                 if(ara[row][7]>=2.50 && ara[row][7]<2.75)
+                {
                     C_plus++;
+                }
                 if(ara[row][7]>=2.75 && ara[row][7]<3.00)
+                {
                     B_minus++;
+                }
                 if(ara[row][7]>=3.00 && ara[row][7]<3.25)
+                {
                     B++;
+                }
                 if(ara[row][7]>=3.25 && ara[row][7]<3.50)
+                {
                     B_plus++;
-                if(ara[row][7]>=3.50 && ara[row][7]<3.75)
-                    A_minus++;
-                if(ara[row][7]>=3.75 && ara[row][7]<4.00){
-                    A++;
                 }
 
-                if(ara[row][7]==4.00){
-                   A_plus++;
+                if(ara[row][7]>=3.50 && ara[row][7]<3.75)
+                {
+                    A_minus++;
+                }
+                if(ara[row][7]>=3.75 && ara[row][7]<4.00)
+                {
+                    A++;
+                }
+                if(ara[row][7]==4.00)
+                {
+                    A_plus++;
                 }
 
             }
