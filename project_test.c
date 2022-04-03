@@ -202,17 +202,16 @@ int main()
                 }
             }
 
-            for(int first2=0 ; first2<45 ; first2++)
+            for(int first2=0 ; first2<r ; first2++)
             {
                 if(first2==0)
                 {
                     printf("        =============================================\n");
                     printf("        ||   ID                            GRADE   ||\n");
-                    printf("        ||                                         ||\n");
                 }
-                printf("        ||   %0.0f                             %0.2f    ||\n",ara[first2][0],ara[first2][7]);              //Printing the sorted grades
+                printf("        ||   %0.0f                          %0.2f    ||\n",ara[first2][0],ara[first2][7]);              //Printing the sorted grades
 
-                if(first2==44)
+                if(first2==(r-1))
                 {
                     printf("        =============================================\n");
                 }
@@ -282,19 +281,18 @@ int main()
             printf("|                                                        |\n");
             printf("| GRADE                 GRADE RANGE                COUNT |\n");
             printf("|                                                        |\n");
-            printf("|   A+                      4.00                     %d  |\n",A_plus);
-            printf("|   A                    3.75--3.99                  %d  |\n",A);
-            printf("|   A-                   3.50--3.74                  %d  |\n",A_minus);
-            printf("|   B+                   3.25--3.49                  %d  |\n",B_plus);
-            printf("|   B                    3.00--3.24                  %d  |\n",B);
-            printf("|   B-                   2.75--2.99                  %d  |\n",B_minus);
-            printf("|   C+                   2.50--2.74                  %d  |\n",C_plus);
-            printf("|   C                    2.25--2.49                  %d  |\n",C);
-            printf("|   D                    2.00--2.24                  %d  |\n",D);
-            printf("|   F                    0.00--1.99                  %d  |\n",F);
+            printf("|   A+                      4.00                     %d   |\n",A_plus);
+            printf("|   A                    3.75--3.99                  %d   |\n",A);
+            printf("|   A-                   3.50--3.74                  %d   |\n",A_minus);
+            printf("|   B+                   3.25--3.49                  %d   |\n",B_plus);
+            printf("|   B                    3.00--3.24                  %d   |\n",B);
+            printf("|   B-                   2.75--2.99                  %d   |\n",B_minus);
+            printf("|   C+                   2.50--2.74                  %d   |\n",C_plus);
+            printf("|   C                    2.25--2.49                  %d   |\n",C);
+            printf("|   D                    2.00--2.24                  %d   |\n",D);
+            printf("|   F                    0.00--1.99                  %d   |\n",F);
             printf("|                                                        |\n");
             printf("----------------------------------------------------------\n");
-
 
             printf("            Enter any key to go back to main menu\n");
             getch ();
