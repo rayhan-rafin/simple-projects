@@ -96,7 +96,7 @@ int main()
             }
 //------------------------------------CALCULATION-------------------------------
 //Rayhan
-            for (  ; row<45; row++)
+            for (  ; row<r; row++)
             {
                 for (col=1; col<7; col++)
                 {
